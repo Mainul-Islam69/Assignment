@@ -1,0 +1,65 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+.first-sec{
+    display: flex;
+    padding-left: 5%; 
+}
+.tomato{
+    color: tomato;
+}
+.half-width{
+    width: 50%;
+}    
+.half-width img{
+      width:60%;
+      padding-left: 10%;
+      padding-bottom: 40%;
+}
+.link-button{
+       text-decoration: none;
+      background-color: orangered;
+      padding: 10px 40px;
+      color: white;
+      border-radius: 5px;
+} 
+.text-alg{
+    text-align: center;
+}
+.oranged{
+      color: orangered;
+}
+
+.third-section{
+       
+       display: flex;
+       padding-left: 10%;
+       padding-right:10%;
+}
+.third-section img{
+        width:70%;
+}
+h2{
+    font-size: 50px;
+}
+.fourth-sec{
+    width: 100%;
+    display: flex;
+    padding-left: 5%;
+    padding-top: 8%;
+}
+.fourth-sec img{
+           width: 70%;
+}
+.footer-tag{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   background-color: black;
+   color: white;
+   margin-top: 50px;
+}
+   

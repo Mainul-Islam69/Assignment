@@ -6,17 +6,29 @@ h1{
 }
 .first-sec{
     display: flex;
-    padding-left: 5%; 
+    justify-content: space-between;
+    padding-left: 7px;
 }
 .tomato{
     color: tomato;
 }
-.half-width{
-    width: 50%;
+.first-width{
+    padding-left: 60px;
+}
+#border{
+    border-left: 5px solid;
+    line-height: 40px;
+    border-color: brown;
+    padding: 0 10px;
+}
+.second-width{
+    display: flex;
+    justify-content: end;
+    width:100%;
 }    
-.half-width img{
-      width:60%;
-      padding-left: 10%;
+.second-width img{
+      width:50%;
+      padding-right: 20%;
       padding-bottom: 40%;
 }
 .link-button{
@@ -32,12 +44,53 @@ h1{
 .oranged{
       color: orangered;
 }
-
+.my{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(37, 37, 73);
+}
+.card{
+    display: flex;
+    padding-left: 130px;
+}
+.section-part{
+     padding-bottom: 300px;
+}
+.card2{
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 5px;
+    text-align: start;
+    margin-left: 1%;
+    padding-left: 20px;
+}
+h4{
+    color: rgb(70, 68, 68);
+}
+.mission{
+    background-color: rgb(224, 241, 241);
+}
+.mission img{
+    width: 130px;
+}
+.vission img{
+    width: 130px;
+}
+.goals img{
+    width: 130px;
+}
+.vission{
+    background-color: rgb(252, 239, 238);
+}
+.goals{
+    background-color: rgb(250, 237, 202);
+}
 .third-section{
-       
-       display: flex;
-       padding-left: 10%;
-       padding-right:10%;
+    padding-top: 10%;
+    display: flex;
+    padding-left: 10%;
+    padding-right:15%;
 }
 .third-section img{
         width:70%;
@@ -48,11 +101,39 @@ h2{
 .fourth-sec{
     width: 100%;
     display: flex;
-    padding-left: 5%;
     padding-top: 8%;
 }
+.taken-likes{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.taken-likes h5{
+    font-size: 15px;
+}
+.taken-likes-box{
+    box-shadow: 10px 10px 10px 5px gray;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 30px;
+}
+#youtube-likes{
+    margin-left: 20%;   
+}
+#insta-likes{
+    margin-left: 20%;
+    
+}
+#dribble-likes{
+    margin-left: 20%;
+}
+.fourthsec-first-width{
+    padding-left: 40px;
+}
 .fourth-sec img{
-           width: 70%;
+           width: 60%;
+           padding-left: 30px;
 }
 .footer-tag{
     text-align: center;
@@ -62,4 +143,6 @@ h2{
    color: white;
    margin-top: 50px;
 }
-   
+.half-color{
+    color: crimson;
+}
